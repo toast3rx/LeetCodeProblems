@@ -11,7 +11,7 @@ After sorting, it becomes [0,1,9,16,100].
 package com.company;
 
 public class SquaresOfASortedArray {
-    public static int[] sortedSquares(int[] nums) {
+    public int[] sortedSquares(int[] nums) {
         int index = nums.length - 1;
         int l = 0;
         int h = nums.length - 1;
